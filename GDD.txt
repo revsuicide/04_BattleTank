@@ -1,0 +1,19 @@
+CONCEPT
+
+To win you must destroy the other tank, to loose your tank gets blown up. There should be best out of 3/5/7 etc.
+rules are to destroy the other tank with whatever means are possible. it is an open world.
+
+RULES AND REQUIREMENTS
+Requirements -
+tanks
+landscape
+sounds
+music (dynamic)
+
+SOUNDS
+gun firing
+barrel moving
+turret moving
+explosions
+engine.
+
