@@ -17,3 +17,19 @@ turret moving
 explosions
 engine.
 
+CONTROL METHODS
+
+Intention		Manual Control		Fly-by-wire Control		Actutators
+
+Forward			Symmetric triggers	Left stick forwards or W	Both Tracks Forward (same Speed)
+Reverse/Brake		Symmetric Bumpers	Left stick backwards or S	Both Tracks Reverse (same speed)
+Turn left		Trigger less on Left	Left stick left or A		Left track moving slower
+Turn right		Trigger less on right	Left stick right ot D		Right track moving slower
+
+Turret left		Left stick left		Mouse left			move turret left
+Turret right		Left atick right	Mouse right			move turret right
+
+Barrel up		Left stick up		Mouse up			move trajectory barrel up
+Barrel down		Left stick down		Mouse down			move trajectory barrel down
+
+Fire			A Button		Mouse left button		Fire the gun
