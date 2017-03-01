@@ -41,6 +41,9 @@
 *.sdf
 *.VC.opendb
 
+#assests
+*.uasset
+
 # Maps
 Content/_Levels/*.umap
 
