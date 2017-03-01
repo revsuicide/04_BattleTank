@@ -41,6 +41,9 @@
 *.sdf
 *.VC.opendb
 
+# Maps
+Content/_Levels/*.umap
+
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
