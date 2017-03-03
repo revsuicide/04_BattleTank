@@ -3,6 +3,17 @@
 #include "BattleTank.h"
 #include "TankPlayerController.h"
 
+void ATankPlayerController::BeginPlay() {
+	Super::BeginPlay();
+	auto ControlledTank = GetControlledTank();
+	if (ControlledTank) {
+		UE_LOG(LogTemp, Warning, TEXT("The player is in possesion of: %s"), *ControlledTank->GetName());
+	}
+	else {
+		UE_LOG(LogTemp, Warning, TEXT("There is no player possessed tank"));
+	}
+}
+
 ATank* ATankPlayerController::GetControlledTank() const {
 	return Cast<ATank>(GetPawn());
 }
