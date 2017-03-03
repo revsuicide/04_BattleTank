@@ -3,16 +3,16 @@
 #pragma once
 
 #include "GameFramework/Pawn.h"
-#include "MyPawn.generated.h"
+#include "Tank.generated.h"
 
 UCLASS()
-class BATTLETANK_API AMyPawn : public APawn
+class BATTLETANK_API ATank : public APawn
 {
 	GENERATED_BODY()
 
 public:
 	// Sets default values for this pawn's properties
-	AMyPawn();
+	ATank();
 
 protected:
 	// Called when the game starts or when spawned
